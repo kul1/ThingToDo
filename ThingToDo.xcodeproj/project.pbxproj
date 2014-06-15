@@ -11,6 +11,7 @@
 		A43B3165194DBC6800C55CCB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A43B3164194DBC6800C55CCB /* AppDelegate.m */; };
 		A43B3167194DBC6800C55CCB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A43B3166194DBC6800C55CCB /* Images.xcassets */; };
 		A43B3173194DBC6800C55CCB /* ThingToDoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A43B3172194DBC6800C55CCB /* ThingToDoTests.m */; };
+		A43B317F194DC1A800C55CCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A43B317E194DC1A800C55CCB /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +34,7 @@
 		A43B316C194DBC6800C55CCB /* ThingToDoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThingToDoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A43B3171194DBC6800C55CCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A43B3172194DBC6800C55CCB /* ThingToDoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThingToDoTests.m; sourceTree = "<group>"; };
+		A43B317E194DC1A800C55CCB /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		A43B3153194DBC6800C55CCB = {
 			isa = PBXGroup;
 			children = (
+				A43B317E194DC1A800C55CCB /* Main.storyboard */,
 				A43B315E194DBC6800C55CCB /* ThingToDo */,
 				A43B316F194DBC6800C55CCB /* ThingToDoTests */,
 				A43B315D194DBC6800C55CCB /* Products */,
@@ -188,6 +191,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A43B3167194DBC6800C55CCB /* Images.xcassets in Resources */,
+				A43B317F194DC1A800C55CCB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
