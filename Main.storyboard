@@ -59,26 +59,16 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField appearanceType="aqua" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="New To-Do item" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="PZk-fv-6Cw">
-                                <rect key="frame" x="20" y="269" width="138" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <textField appearanceType="aqua" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Remark" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="htK-Bk-H2R">
-                                <rect key="frame" x="175" y="269" width="125" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="125" id="4Xm-fg-uUP"/>
-                                </constraints>
+                                <rect key="frame" x="20" y="117" width="280" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="htK-Bk-H2R" firstAttribute="baseline" secondItem="PZk-fv-6Cw" secondAttribute="baseline" id="2fe-hs-fUB"/>
-                            <constraint firstAttribute="trailing" secondItem="htK-Bk-H2R" secondAttribute="trailing" constant="20" symbolic="YES" id="LK3-HI-Rq6"/>
-                            <constraint firstItem="PZk-fv-6Cw" firstAttribute="leading" secondItem="Toh-TF-hT9" secondAttribute="leading" constant="20" symbolic="YES" id="UAE-aT-93k"/>
-                            <constraint firstItem="htK-Bk-H2R" firstAttribute="centerY" secondItem="Toh-TF-hT9" secondAttribute="centerY" id="gmq-wG-zSH"/>
-                            <constraint firstItem="htK-Bk-H2R" firstAttribute="leading" secondItem="PZk-fv-6Cw" secondAttribute="trailing" constant="17" id="rrX-4P-v1L"/>
+                            <constraint firstAttribute="trailing" secondItem="PZk-fv-6Cw" secondAttribute="trailing" constant="20" symbolic="YES" id="5Ka-uw-zei"/>
+                            <constraint firstItem="PZk-fv-6Cw" firstAttribute="top" secondItem="VDx-Bw-BJp" secondAttribute="bottom" constant="53" id="mga-q1-QJC"/>
+                            <constraint firstItem="PZk-fv-6Cw" firstAttribute="leading" secondItem="Toh-TF-hT9" secondAttribute="leading" constant="20" symbolic="YES" id="nI0-dY-Pln"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Add To-Do Item" id="Gan-ku-FHV">
